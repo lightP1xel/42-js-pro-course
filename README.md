@@ -6,5 +6,5 @@
   - [Alex Simonok](https://github.com/asimonok)
 - создайте `README.md` файл в корне проекта с описанием (ФИО, доп. инфо - по желанию). [Как оформлять файлы расширения `.md`](https://guides.github.com/features/mastering-markdown/);
 - создайте новую ветку руководствуясь [gitflow](https://www.atlassian.com/ru/git/tutorials/comparing-workflows/gitflow-workflow) а в ней файлы `.gitignore` и `.editorconfig` в корне проекта (подробно о предназначении этих файлов [gitignore](https://git-scm.com/docs/gitignore), [editorconfig](https://editorconfig.org/));
-- создайте pull request и назначьте reviewer, вашего ментора
+- создайте pull request из созданной ветки в ветку master и назначьте reviewer, вашего ментора
 - дождитесь аппрува от ментора
