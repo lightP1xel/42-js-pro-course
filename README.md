@@ -7,4 +7,4 @@
 ### Домашняя работа
 - Разработать фичу `alert('hello world!')` в соответствии с gitflow `master -> develop -> feature/hello_world -> develop -> release/1.0.0 -> master, develop`
 - Внести изменение для сообщения в продакшен версии на `Hello world` `hotfix/1.0.1 -> master`
-- Создать pull request и поставить ментора в reviewers из `hotfix/1.0.1` в `develop`. После получения аппрува вмержить PR в `develop`
+- Создать pull request и поставить ментора в reviewers из вашего `fork/master` в `master`.
