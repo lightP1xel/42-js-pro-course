@@ -5,6 +5,8 @@
 - добавьте своего ментора в качестве контрибьютера к проекту. Контрибьютер нужен для последующей проверки ваших домашних заданий, которые будут сделаны с помощью `пулл реквеста` - [что это](https://habr.com/ru/post/125999/):
   - [Alex Simonok](https://github.com/asimonok)
 - создайте `README.md` файл в корне проекта с описанием (ФИО, доп. инфо - по желанию). [Как оформлять файлы расширения `.md`](https://guides.github.com/features/mastering-markdown/);
-- создайте новую ветку руководствуясь [gitflow](https://www.atlassian.com/ru/git/tutorials/comparing-workflows/gitflow-workflow) а в ней файлы `.gitignore` и `.editorconfig` в корне проекта (подробно о предназначении этих файлов [gitignore](https://git-scm.com/docs/gitignore), [editorconfig](https://editorconfig.org/));
-- создайте pull request из созданной ветки в ветку master и назначьте reviewer, вашего ментора
-- дождитесь аппрува от ментора
+
+### Домашняя работа
+- Разработать фичу `alert('hello world!')` в соответствии с gitflow `master -> develop -> feature/hello_world -> develop -> release/1.0.0 -> master, develop`
+- Внести изменение для сообщения в продакшен версии на `Hello world` `hotfix/1.0.1 -> master`
+- Создать pull request и поставить ментора в reviewers из `hotfix/1.0.1` в `develop`. После получения аппрува вмержить PR в `develop`
