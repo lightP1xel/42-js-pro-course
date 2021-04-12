@@ -35,6 +35,7 @@ const binarySearch = (array, searchValue) => {
     if (array[middle].amount === searchValue) {
       pos = middle;
       found = true;
+
       return array[pos];
     }
     if (searchValue < array[middle].amount) {
