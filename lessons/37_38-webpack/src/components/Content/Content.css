@@ -1,0 +1,15 @@
+.content {
+  overflow: hidden;
+  padding: 16px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.content p {
+  font-family: var(--custom-font);
+}
+
+.content input, .content button {
+  font-size: inherit;
+}
+
