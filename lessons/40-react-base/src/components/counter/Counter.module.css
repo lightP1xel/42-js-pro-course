@@ -1,0 +1,28 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  margin-left: 20px;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.buttonWrapper {
+  display: flex;
+  margin: 40px 0px 0px 0px;
+}
+
+.counterHeading {
+  margin-top: 60px;
+  color: black;
+}
