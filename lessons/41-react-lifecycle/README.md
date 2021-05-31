@@ -1,20 +1,70 @@
-### Emoji
----
-Выша задача реализовать поиск эмоджи по следующим данным - [json](./emojiList.json)
+# Getting Started with Create React App
 
-Шаги по реализации:
-- настройте рабочую директорию (вы можете использовать `create-react-app` или настроить самостоятельно с помощью `webpack` и `babel`);
-- файл `index.js` должен быть входной точкой в приложение, где вы вызываете функцию `ReactDOM.render`;
-- компонент `Form` должен принимать строку поиска по емэджи (искать можно как по названию - `title`, так и по ключевым словам - `keywords`);
-- компонент `EmojiCOntainer` должен рендерить другой компонент - `EmojiRow`;
-- компонент `EmojiRow` должен отображать иконку эмоджи и название: 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-    ![](https://user-images.githubusercontent.com/15867703/119798498-dd9f7280-bee3-11eb-9bd6-1ff1a94f669e.png)
-    + вы можете отображать стандартную эмоджи либо ->;
-    + отображать картинку по URL [![](https://data.jsdelivr.com/v1/package/npm/emojione/badge)](https://www.jsdelivr.com/package/npm/emojione) (используйте след путь : `//cdn.jsdelivr.net/emojione/assets/png/${codePointHex}.png`, где `codePointHex` можно получить как `symbol.codePointAt(0).toString(16)`)
-- используйте лимит отображения эмоджи - напрмер не больше 15 найденных! (можно реализовать дродаун с выбором лимита строк);
----
-Финальный пример:
+## Available Scripts
 
+In the project directory, you can run:
 
-![Final example](https://user-images.githubusercontent.com/15867703/119798506-ded09f80-bee3-11eb-997a-b0a9ddc1d23b.gif)
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
